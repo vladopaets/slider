@@ -1,0 +1,16 @@
+.app {
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    margin: 100px auto;
+}
+.slide {
+    height: 100px;
+    background-color: crimson;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+}

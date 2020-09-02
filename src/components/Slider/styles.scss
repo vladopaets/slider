@@ -1,0 +1,36 @@
+.wrapper {
+    position: relative;
+    width: 100%;
+
+    & > span {
+        position: absolute;
+        padding: 15px 5px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+
+        img {
+            width: 12px;
+            height: 20px;
+        }
+    }
+}
+.slider {
+    overflow: hidden;
+}
+.inner {
+    display: flex;
+    transition: transform 0.5s;
+
+    & > div {
+        flex-shrink: 0;
+        box-sizing: border-box;
+    }
+}
+.prevBtn {
+    svg {
+        transform: rotate(-180deg);
+    }
+}
