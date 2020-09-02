@@ -7,7 +7,7 @@ function App() {
     return (
         <div className="app">
             <Slider
-                itemsPerSlide={4}
+                itemsPerSlide={2}
             >
                 <div className='slide'>1</div>
                 <div className='slide'>2</div>

@@ -1,5 +1,12 @@
-a slider will be added soon ...
+A Slider component built on React
 
+Example: 
+
+![](slider.gif)
+
+2 items: 
+
+![](slider-2-items.gif)
 
 ## Available Scripts
 
